@@ -1,2 +1,2 @@
-# stop-motion-movie-maker
+# SMMM
 SMMM
