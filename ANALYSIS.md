@@ -27,7 +27,7 @@ You may be more precise in the specificatin of details:
 ---
 project:
   name: My Movie Project
-  images-files: 
+  image-files: 
     - /home/dvorka/miky/my-movie/3.jpg
     - /home/dvorka/miky/my-movie/1.png
     - /home/dvorka/miky/my-movie/2.png
@@ -81,6 +81,9 @@ Step by step:
    * Tool to have CLI `smmm -arg1 ... -argN` and GUI `smmm` mode.
    * CLI:
       * Tool gets parameters OR YAML configuration file i.e. project created in GUI `smmm --project MyMovie.smmm`
+      * Target `AVI` and `GIF` formats first.
+      * Test it on existing Miky movies.
+      * Create SMMM YouTube channel and link it from project homepage.
    * GUI:
       * Tool basically creates YAML project and then calls CLI to build video clip.
       * Consider use of Glade and [GtkBuilder](https://developer.gnome.org/gtk3/stable/GtkBuilder.html)
