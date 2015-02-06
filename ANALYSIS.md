@@ -31,4 +31,4 @@ Plan
 Step by step:
 
    * Target minimal shippable product for Miky's use case.
-   * Consider using Glade
+   * Consider using Glade and [GtkBuilder](https://developer.gnome.org/gtk3/stable/GtkBuilder.html)
