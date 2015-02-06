@@ -31,3 +31,4 @@ Plan
 Step by step:
 
    * Target minimal shippable product for Miky's use case.
+   * Consider using Glade
