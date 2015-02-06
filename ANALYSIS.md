@@ -10,7 +10,7 @@ CLI
 
 Project file is based on DSL internal in YAML:
 
-```
+``` yaml
 ---
 project:
   name: My Movie Project
