@@ -67,11 +67,6 @@ Basic layout of the main window looks like this:
 
 ```
 
-Project
--------
-
-CLI
-
 
 Plan
 ----
