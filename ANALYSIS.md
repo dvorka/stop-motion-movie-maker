@@ -3,7 +3,7 @@ Analysis and Plans
 
 Stop Motion Movie Maker is a simple tool for building stop-motion
 video clips that is based on existing libraries. It's written in C and
-GTK+. It has CLI and GUI mode. 
+Qt. It has CLI and GUI mode. 
 
 CLI
 ---
@@ -72,14 +72,20 @@ Plan
 ----
 Step by step:
 
-   * Target minimal shippable product for Miky's use case.
+   * Target minimal shippable product for Miky's use case - CLI
    * Tool to have CLI `smmm -arg1 ... -argN` and GUI `smmm` mode.
    * CLI:
-      * Tool gets parameters OR YAML configuration file i.e. project created in GUI `smmm --project MyMovie.smmm`
+      * Tool gets parameters and generates movie.
       * Target `AVI` and `GIF` formats first.
       * Test it on existing Miky movies.
       * Create SMMM YouTube channel and link it from project homepage.
+   * CLI w/ config:
+      * Tool gets YAML configuration file i.e. project files. Such files can 
+        be stored around file system in directories with images, and generates 
+        movie: `smmm --project MyMovie.smmm`
    * GUI:
       * Tool basically creates YAML project and then calls CLI to build video clip.
+      * Written in Ubuntu SDK - (instead of Qt) - [instead of GTK+](http://www.wikivs.com/wiki/GTK_vs_Qt)
       * Consider use of Glade and [GtkBuilder](https://developer.gnome.org/gtk3/stable/GtkBuilder.html)
    * Release headless version first and GUI version next.
+   * Consider Android application.
