@@ -4,11 +4,11 @@ Stop Motion Movie Maker
 A shell script that creates a stop motion movie from 
 a set of photos or images.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=mupuJv6Kiw0
-" target="_blank"><img src="http://img.youtube.com/vi/mupuJv6Kiw0/0.jpg" 
-alt="Miky Movies: Buz vs. Furby" width="480" height="360" border="10" /></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ZZun0cD42LQ
+" target="_blank"><img src="http://img.youtube.com/vi/ZZun0cD42LQ/0.jpg" 
+alt="Miky Movies: Buz vs. Spider" width="480" height="360" border="10" /></a>
 
-Check "Buz vs. Furby" by my 6-year old son.
+Check "Buz vs. Spider" by my 6-year old son.
 
 Prerequisities
 --------------
